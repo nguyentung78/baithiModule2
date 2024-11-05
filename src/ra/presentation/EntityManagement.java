@@ -71,16 +71,6 @@ public class EntityManagement {
     }
 
     private static void productMenu() {
-        while (true) {
-            System.out.println("******************PRODUCT-MENU****************");
-            System.out.println("1.Danh sách sản phẩm");
-            System.out.println("lựa chọn của bạn");
-            int choice = Integer.parseInt(scanner.nextLine());
-            switch (choice) {
-                case 1:
-                    ProductBusiness.displayAllProducts();
-                    break;
-            }
-        }
+
     }
 }
